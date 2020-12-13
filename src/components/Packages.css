@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+.packageBackground,.lastTwoCardBg {
+    background-color: #000;
+    height: 100vh;
+}
+
+.packageWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 405px));
+    gap: 50px;
+    justify-content: center;
+    height: 70vh;
+    padding: 150px;
+}
+
+.lastTwoCardWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
+    gap: 20px;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 180vh) {
+    .packageBackground {
+        background-color: #000;
+        height: 330vh;
+    }
+    .lastTwoCardBg {
+        background-color: #000;
+        height: 330vh;
+    }
+}
+

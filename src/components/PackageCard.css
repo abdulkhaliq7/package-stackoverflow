@@ -1,0 +1,48 @@
+.package__text, .btn-package {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+
+.package {
+    background-color: #181818;
+    z-index: 7;
+    
+}
+
+.thumbnail {
+    display: block;
+    width: 80%;
+    height: 170px;
+    object-fit: cover;
+    margin: 30px auto 10px auto;
+    padding-top: 70px;
+}
+
+.package__preview {
+    padding: 30px 30px 0px 30px;
+    margin-bottom: 25px;
+}
+
+.package__text {
+    color: rgb(204, 201, 201);
+    margin-top: 0px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.btn-package {
+    font-size: 15px;
+    color: #fff;
+    margin: 10% 0% 10% 40%;
+    background-color:  #181818 ;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-package:focus {
+    outline:0;
+}
+
+
+
+
